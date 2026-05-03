@@ -1,0 +1,28 @@
+{
+  "materials": {
+    "stainless_steel_304": {
+      "name": "Stainless Steel 304",
+      "density": 8000.0,
+      "youngs_modulus": 193e9,
+      "poisson_ratio": 0.29,
+      "yield_strength": 215e6,
+      "description": "High strength, corrosion resistant, good for turbine shafts."
+    },
+    "aluminum_6061": {
+      "name": "Aluminum 6061-T6",
+      "density": 2700.0,
+      "youngs_modulus": 68.9e9,
+      "poisson_ratio": 0.33,
+      "yield_strength": 276e6,
+      "description": "Lightweight, good for turbine blades but lower fatigue limit."
+    },
+    "pvc_plastic": {
+      "name": "PVC Plastic",
+      "density": 1380.0,
+      "youngs_modulus": 3.0e9,
+      "poisson_ratio": 0.4,
+      "yield_strength": 45e6,
+      "description": "Very cheap, lightweight, but brittle and weak under high torque."
+    }
+  }
+}
